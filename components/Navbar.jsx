@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
+
+
 const Navbar = () => {
     return (
         <div className={styles.container}>
@@ -23,7 +25,7 @@ const Navbar = () => {
                     <li className={styles.listItem}>Blog</li>
                     <li className={styles.listItem}>Contact</li>
                 </ul>
-            </div>
+        </div>
             <div className={styles.item}>
                 <div className={styles.cart}>
                     <Image src="/img/cart.png" alt="" width="30" height="30px" />
